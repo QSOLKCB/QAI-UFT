@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17520187.svg)](https://doi.org/10.5281/zenodo.17520187)
+[![DOI](https://zenodo.org/badge/DOI/10.5281%2Fzenodo.17520187.svg)](https://doi.org/10.5281/zenodo.17520187)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
 # QAI-UFT (Quantum AI Unified Field Framework)
