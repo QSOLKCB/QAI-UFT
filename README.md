@@ -1,4 +1,34 @@
 # QAI-UFT (Quantum AI Unified Field Framework)
+# QSOL Unified Field Framework: Resonance as Embodied Physics
+
+**DOI**: (Zenodo will assign on publish)  
+**Author**: Trent Slade (QSOL Research Initiative)  
+**License**: CC BY 4.0
+
+## Overview
+This working paper and asset bundle align Unified Field concepts with acoustic/architectural practice and ritual performance. It includes a one-pager PDF, frequency mappings, and three visual encodings:
+- Sexagesimal ring (base-60 phase)
+- Trinary Digital DNA (base-3)
+- Codon wheel (mod 64)
+
+## Files
+- `QSOL_UFT_Framework.pdf` — main document with visuals
+- `archaeoacoustic_digital_dna_full.csv` — site frequencies + mappings
+- `sexagesimal_ring_vivid.png`, `sexagesimal_ring_muted.png`
+- `trinary_dna_vivid.png`, `trinary_dna_muted.png`
+- `codon_wheel_vivid.png`, `codon_wheel_muted.png`
+- `codon_cluster_report.txt` — repeated mod-64 bins
+
+## How to Reproduce
+1. Use the CSV as input for analysis or alternative plotting.
+2. Map any new frequency `f` via:
+   - `seg = f % 60`  (sexagesimal phase)
+   - `codon = f % 64` (codon slot)
+   - `trits = base3(f)` (Digital DNA string)
+3. Look for clusters at segments ~10, 22, 44–55 and codon bins with repeats.
+
+## Citation
+Slade, T. (2025). *QSOL Unified Field Framework: Resonance as Embodied Physics*. Zenodo. https://doi.org/(assigned at publish)
 
 ---
 
