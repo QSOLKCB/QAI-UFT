@@ -41,6 +41,3 @@ Slade, T. (2025). QSOL Unified Field Framework: Resonance as Embodied Physics. Z
 
 ✴️ QSOL Motto
 Small is Beautiful. Fast is Holy. Transparent by Design.
-
-yaml
-Copy code
