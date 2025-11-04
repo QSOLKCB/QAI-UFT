@@ -1,9 +1,12 @@
 # QAI-UFT (Quantum AI Unified Field Framework)
 # QSOL Unified Field Framework: Resonance as Embodied Physics
 
-**DOI**: (Zenodo will assign on publish)  
+
+**DOI**:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17520187.svg)](https://doi.org/10.5281/zenodo.17520187)
 **Author**: Trent Slade (QSOL Research Initiative)  
-**License**: CC BY 4.0
+**License**: CC BY 4.0 
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
 ## Overview
 This working paper and asset bundle align Unified Field concepts with acoustic/architectural practice and ritual performance. It includes a one-pager PDF, frequency mappings, and three visual encodings:
