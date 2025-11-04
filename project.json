@@ -1,0 +1,53 @@
+{
+  "name": "QAI-UFT Resonance Lab",
+  "body": "Transform QAI-UFT from a static framework into a living, interactive Resonance Lab where users can explore, hear, and visualize unified-field harmonics.",
+  "public": true,
+  "columns": [
+    {"name": "🧩 Framework Stabilization (v1.1)", "cards": [
+      "Write concise theory/usage/API docs under /docs",
+      "Add example scripts (/examples/frequency_map.py, /examples/ritual_visualizer.js)",
+      "Tag v1.1 → auto-archive Zenodo → update README DOI badge",
+      "Publish short Medium/Zenodo note announcing v1.1"
+    ]},
+    {"name": "🎛️ Resonance Lab Web App", "cards": [
+      "Scaffold Vite + WebAudio + Three.js frontend",
+      "Create Frequency Mapper component (Hz → sexagesimal/trinary visual)",
+      "Add Ritual Wheel Canvas (60-segment rotation + color codes)",
+      "Implement Oud Synth module with WebAudio detune tables (quarter-tone support)",
+      "Deploy to qinn.space/lab",
+      "Add GitHub Action for auto-deploy on main push"
+    ]},
+    {"name": "🎶 Live Performance Mode", "cards": [
+      "Implement OSC / MIDI bridge (WebAudio ↔ Ableton/VCV Rack)",
+      "Sync TouchDesigner/Hydra visuals to codon wheel events",
+      "Prototype Ritual Sequencer → export MIDI patterns",
+      "Document performance setup in /performance/README.md"
+    ]},
+    {"name": "🧠 Open Research Network", "cards": [
+      "Add /community folder with submission template for site frequencies",
+      "Publish QSOL Data Schema (JSON spec for frequency entries)",
+      "Submit demo paper to Leonardo or Frontiers in Digital Humanities",
+      "Add collaborators as Zenodo authors for citation tracking"
+    ]},
+    {"name": "🔄 Reflexive Feedback Loop", "cards": [
+      "Automate data collection from Lab users → aggregate resonance patterns",
+      "Feed new data into visual models → generate v2 maps",
+      "Archive updated datasets with DOI versions",
+      "Plan v2.0 Unified Resonance Engine release 2026"
+    ]}
+  ],
+  "labels": [
+    "type:audio",
+    "type:visual",
+    "type:research",
+    "good first issue",
+    "documentation",
+    "help wanted"
+  ],
+  "notes": [
+    "Enable Zenodo auto-archive for every GitHub release.",
+    "Use GitHub Actions to deploy /lab to qinn.space.",
+    "Connect Discussions → Ideas for community concept threads.",
+    "Threads to start: Field as Instrument · Microtonal Implementation Guide · Ancient Site Frequency Data · Quantum Visuals Pipeline."
+  ]
+}
