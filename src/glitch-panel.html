@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glitch Control Panel</title>
+  <link rel="stylesheet" href="glitch-panel.css">
+</head>
+<body>
+  <div class="glitch-control-panel" data-component="glitch-panel">
+    <!-- Header -->
+    <div class="panel-header">
+      <div class="header-left">
+        <!-- 3-State LED Indicator -->
+        <div class="state-led" data-state="stable" aria-label="System state indicator">
+          <div class="led-light led-stable"></div>
+        </div>
+        <h3 class="panel-title">Glitch Control Panel</h3>
+      </div>
+      <button class="minimize-btn" data-action="toggle-minimize">−</button>
+    </div>
+
+    <!-- Panel Content -->
+    <div class="panel-content">
+      <!-- Live Preview Canvas -->
+      <div class="control-group">
+        <label class="control-label">Hallucination Output</label>
+        <div class="preview-container">
+          <canvas 
+            id="hallucination_output" 
+            data-component="preview-canvas"
+            width="280" 
+            height="200"
+          ></canvas>
+        </div>
+      </div>
+
+      <!-- Feedback Loop Toggle -->
+      <div class="control-group control-row" id="feedback_toggle" data-control="feedback-loop">
+        <label class="control-label">Feedback Loop</label>
+        <div class="switch" data-state="off">
+          <input type="checkbox" id="feedback-input" data-param="feedback-loop">
+          <span class="switch-slider"></span>
+        </div>
+      </div>
+
+      <!-- Lucidity Slider -->
+      <div class="control-group" id="lucidity_slider" data-control="lucidity">
+        <div class="control-header">
+          <label class="control-label">Lucidity</label>
+          <span class="control-value" data-display="lucidity">0.75</span>
+        </div>
+        <input 
+          type="range" 
+          class="glitch-slider" 
+          min="0" 
+          max="1" 
+          step="0.01" 
+          value="0.75"
+          data-param="lucidity"
+        >
+      </div>
+
+      <!-- Fractalization Depth Slider -->
+      <div class="control-group" id="fractal_depth" data-control="fractal-depth">
+        <div class="control-header">
+          <label class="control-label">Fractalization Depth</label>
+          <span class="control-value" data-display="fractal-depth">3</span>
+        </div>
+        <input 
+          type="range" 
+          class="glitch-slider" 
+          min="1" 
+          max="9" 
+          step="1" 
+          value="3"
+          data-param="fractal-depth"
+        >
+      </div>
+
+      <!-- Color Phase Shift -->
+      <div class="control-group" id="color_phase" data-control="color-phase">
+        <div class="control-header">
+          <label class="control-label">Color Phase Shift</label>
+          <span class="control-value" data-display="color-phase">180°</span>
+        </div>
+        <input 
+          type="range" 
+          class="glitch-slider" 
+          min="0" 
+          max="360" 
+          step="5" 
+          value="180"
+          data-param="color-phase"
+        >
+        <div class="color-indicator" data-hue="180"></div>
+      </div>
+
+      <!-- ASCII Mode Switch -->
+      <div class="control-group" id="ascii_mode" data-control="ascii-mode">
+        <label class="control-label">ASCII Mode</label>
+        <div class="button-group">
+          <button class="mode-button" data-mode="OFF" data-active="false">OFF</button>
+          <button class="mode-button" data-mode="LOW" data-active="false">LOW</button>
+          <button class="mode-button" data-mode="HIGH" data-active="false">HIGH</button>
+        </div>
+      </div>
+
+      <!-- System State Display -->
+      <div class="system-state">
+        <span class="state-label">SYSTEM STATE:</span>
+        <span class="state-value" data-state="stable">STABLE</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="glitch-panel.js"></script>
+</body>
+</html>
