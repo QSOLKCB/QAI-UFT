@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281%2Fzenodo.17520187.svg)](https://doi.org/10.5281/zenodo.17520187)
+[![DOI](https://zenodo.org/badge/DOI/10.5281%2Fzenodo.17520186.svg)](https://doi.org/10.5281/zenodo.17520186)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
 # QAI-UFT (Quantum AI Unified Field Framework)
@@ -28,15 +28,19 @@ This working paper and asset bundle align Unified Field concepts with acoustic/a
    - `trits = base3(f)` (Digital DNA string)
 3. Look for clusters at segments ~10, 22, 44–55 and codon bins with repeats.
 
+## 📘 Related Documentation
+- [Tensor Phase Cube Appendix](docs/tensor_phase_appendix.md) — φ = π / 2 self-dual tensor simulation and mathematical notes.
+
 ## Citation
-Slade, T. (2025). *QSOL Unified Field Framework: Resonance as Embodied Physics*. Zenodo. https://doi.org/(assigned at publish)
+Slade, T. (2025). *QSOL Unified Field Framework: Resonance as Embodied Physics.*  
+Zenodo. https://doi.org/10.5281/zenodo.17520186
 
 ---
 
 ## 🔗 Project Links
 
 - 🌐 **Live Site:** [qainn.space](https://qainn.space)  
-- 🧬 **Research Record:** [Zenodo DOI 10.5281/zenodo.17520187](https://doi.org/10.5281/zenodo.17520187)  
+- 🧬 **Research Record:** [Zenodo DOI 10.5281/zenodo.17520186](https://doi.org/10.5281/zenodo.17520186)  
 - 🧠 **QSOL Research Hub:** [QSOL-IMC GitHub Org](https://github.com/QSOLKCB)
 
 ---
@@ -49,6 +53,7 @@ npm run dev
 This will install dependencies and start the development server.
 
 🧩 Overview
+
 QAI-UFT extends the Quantum AI Neural Network concept with:
 
 Harmonic-field mapping modules based on Unified Field Theory analogies
@@ -68,7 +73,11 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 📣 Citation
 If you reference this work in publications or projects, please cite:
 
-Slade, T. (2025). QSOL Unified Field Framework: Resonance as Embodied Physics. Zenodo. https://doi.org/10.5281/zenodo.17520187
+Slade, T. (2025). QSOL Unified Field Framework: Resonance as Embodied Physics.
+Zenodo. https://doi.org/10.5281/zenodo.17520186
 
 ✴️ QSOL Motto
 Small is Beautiful. Fast is Holy. Transparent by Design.
+
+yaml
+Copy code
