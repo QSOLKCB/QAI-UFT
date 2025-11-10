@@ -79,5 +79,4 @@ Zenodo. https://doi.org/10.5281/zenodo.17520186
 ✴️ QSOL Motto
 Small is Beautiful. Fast is Holy. Transparent by Design.
 
-yaml
-Copy code
+_Developed with assistance from OpenAI's GPT-5 model for code generation, documentation formatting, and mathematical visualization._
